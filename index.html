@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyResume</title>
+    <style>
+    *
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    h1
+    {
+        font-size: 2rem;
+
+    }
+    h2
+    {
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        border-top: 1px solid #888;
+        border-bottom: 1px solid #888;
+        padding: 1rem 0;
+        margin-bottom: 2rem;
+    }
+    html
+    {
+        color:#222;
+        line-height: 1.5;
+    }
+    p
+    {
+        line-height: 1.5;
+    }
+    section
+    {
+        margin-top: 2rem;
+    }
+    .profile img
+    {
+        width: 250px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .profile
+    {
+        text-align: center;
+    }
+    .profile p
+    {
+        margin-bottom: 1rem;
+        color:#888;
+    }
+    .contact li
+    {
+        text-align: right;
+        text-transform: uppercase;
+        padding: 1rem;
+        border-bottom: 1px solid #888;
+       color: #888;
+    }
+    .contact ul
+    {
+        margin-top: -2rem;
+    }
+    li
+    {
+        margin-top: 1rem;
+    }
+    h3
+    {
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: salmon;
+        margin-bottom: 1rem;
+    }
+    body
+    {
+        padding: 1rem;
+    }
+    ul
+    {
+        list-style: none;
+    }
+    .skills > ul
+    {
+        display: grid;
+        grid-template-columns: 8px 8px;
+        grid-gap: 20rem;
+    }
+    .timeline .event
+    {
+        display: grid;
+        grid-template-columns: 7ch 1px;
+    }
+    .timeline .content
+    {
+        border-left: 1px solid #000;
+        padding-left: 1rem;
+        margin-left: 1rem;
+    }
+     
+    </style>
+</head>
+<body>
+   
+<section class="profile">
+    <h1>Gursha Agrawal</h1>
+    <p><em>I'm a Passionate Web Developer and Coder</em></p>
+    <img src="../images/gursha.jpg" alt="">
+</section>
+<section class="contact">
+    <h2>Contact</h2>
+    <ul>
+        <li>Gupta Colony,Raya</li>
+        <li>gurshaagrawal2003@gmail.com</li>
+        <li>gfg</li>
+        <li>linkedin</li>
+        <li>+91 9149399363</li>
+    </ul>
+</section>
+<section class="objectives">
+   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolores. Dolore a ipsam incidunt eveniet consequuntur, ex dolores magni molestias dolorem nemo qui praesentium ullam, ducimus tempore dignissimos repellat iste optio recusandae tempora doloribus odio architecto est? Quia rem omnis dolor dolorem. Suscipit, est porro. Voluptates aspernatur qui nulla vel.</p>
+</section>
+<section class="skills">
+    <h2>Capabilities/Skills</h2>
+    <ul>
+        <li>
+            <h3>Professional</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <Li>C++</Li>
+                <li>C</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Personal</h3>
+            <ul>
+                <li>Leadership</li>
+                <li>Communication</li>
+            </ul>
+        </li>
+        
+    </ul>
+</section>
+<section class="education">
+    <h2>Education</h2>
+    <ul class="timeline">
+        <li class="event">
+        <span class="duration">2020-2024</span>
+        <div class="content">
+        <h3>B.TECH in Computer Science And Engineering</h3>
+        <p>GLA UNIVERSITY,MATHURA</p>
+        <p>CGPA:7.77</p>
+        </div>
+        </li>
+        <li class="event">
+            <span class="duration">2018-2020</span>
+            <div class="content">
+                <h3>HIGHER SECONDARY EDUCATION</h3>
+            <p>12th with 86.2% at HPD Saraswati Balika Vidhya Mandir,Vrindavan affilated to C.B.S.E board.</p>
+            </div>
+        </li>
+        <li class="event">
+            <span class="duration">2016-2018</span>
+            <div class="content">
+                <h3>SECONDARY EDUCATION</h3>
+            <p>10th with 88.2% at HPD Saraswati Balika Vidhya Mandir,Vrindavan affilated to C.B.S.E board.</p>
+            </div>
+        </li>
+    </ul>
+</section>
+</body>
+</html>
